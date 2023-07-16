@@ -1,0 +1,48 @@
+.card
+{
+    background-image: url("./imagenes/Matrix.jpeg");
+    width: 450px;
+    height: 570px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.general{
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    text-align: center; /* Para centrar el contenido en horizontal */
+    padding-top: 25px;
+
+
+}
+
+.profile img {
+    width: 150px;
+
+    border-radius: 50%;
+}
+
+.profile p {
+    color: aliceblue;
+}
+.nombre_bandera{
+    /*background: black;
+    opacity: 50%;*/
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.nombre_bandera img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
