@@ -6,6 +6,7 @@
     border-radius: 20px;
     display: flex;
     justify-content: center;
+    background-size: cover;
 
 
 }
@@ -45,4 +46,38 @@
     height: 50px;
     border-radius: 50%;
     margin-left: 10px;
+}
+
+.cuerpo{
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    background: rgb(31, 29, 29);
+    opacity: 80%;
+    border-radius: 8%;
+}
+.cuerpo-skills{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.cuerpo-skills p{
+    margin: 8px;
+}
+section:nth-child(3){
+    color: green;
+}
+.cuerpo-contactame{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.cuerpo-contactame p{
+    margin: 8px;
+}
+
+.cuerpo-skills p:first-child,
+.cuerpo-contactame p:first-child {
+    color: rgb(4, 187, 4);
 }
