@@ -1,5 +1,8 @@
 .card
 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-image: url("./imagenes/Matrix.jpeg");
     width: 450px;
     height: 570px;
@@ -7,7 +10,8 @@
     display: flex;
     justify-content: center;
     background-size: cover;
-
+    overflow: hidden;
+    box-shadow: 8px 8px 7px rgba(0, 0, 0, 0.2); /* Agrega la sombra aquí */
 
 }
 
@@ -55,6 +59,7 @@
     background: rgb(31, 29, 29);
     opacity: 80%;
     border-radius: 8%;
+    margin: 20px;
 }
 .cuerpo-skills{
     display: flex;
@@ -80,4 +85,17 @@ section:nth-child(3){
 .cuerpo-skills p:first-child,
 .cuerpo-contactame p:first-child {
     color: rgb(4, 187, 4);
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    background: rgb(187, 115, 8);
+    width: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+
 }
